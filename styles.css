@@ -23,7 +23,7 @@ img {
 
 .layout {
   max-width: 1600px;
-  width: 1500px;
+  width: 1600px;
   height: 1200px;
   display: flex;
   border: 5px solid rgba(128, 128, 128, 0.11);
@@ -39,8 +39,8 @@ img {
 
 .page-one,
 .page-two {
-  max-width: 850px;
-  width: 810px;
+  max-width: 880px;
+  width: 800px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -49,6 +49,11 @@ img {
 
 .page-one {
   background-color: rgba(128, 128, 128, 0.11);
+}
+
+.page-two {
+  background-color: rgba(128, 128, 128, 0.212);
+  box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .container {
